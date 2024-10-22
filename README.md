@@ -39,6 +39,18 @@ gcc -o audiocapture audiocapture.c -lasound
 ffmpeg -i rtp://127.0.0.1:5004 -f alsa default
 ```
 
+</br>
+
+## RaspberryPi 5 Setting
+
+- 사운드카드
+- 3.5mm 핀 마이크
+- 스피커
+  
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/ed5c69e9-2c98-4297-ba8f-4182d21f154d">
+
+</br>
+
 ## 결과
 
 <img width="884" alt="rtcp" src="https://github.com/user-attachments/assets/4aef5f9c-be53-414c-a2d8-fa6eac25c4cc">
