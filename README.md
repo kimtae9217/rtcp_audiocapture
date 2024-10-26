@@ -19,7 +19,8 @@
 - Install
 ```bash
 sudo apt update
-sudo apt install libasound2-dev 
+sudo apt install libasound2-dev  // ALSA 
+sudo apt install ffmpeg		 // ffmpeg 
 ```
 
 - Complie
