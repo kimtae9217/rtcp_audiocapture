@@ -119,7 +119,7 @@ unsigned char g711_ulaw(int sample) {
 
 int main() {
     int rtp_sockfd, rtcp_sockfd;
-    struct sockaddr_in rtp_dest_addr, rtcp_dest_addr;$
+    struct sockaddr_in rtp_dest_addr, rtcp_dest_addr;
     struct rtp_header rtp_hdr;
     struct rtcp_sr rtcp_sr;
     unsigned char payload[PAYLOAD_SIZE];
